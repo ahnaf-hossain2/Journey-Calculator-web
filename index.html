@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journey Metrics Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Journey Metrics Calculator</h1>
+    <div class="calculator">
+      <label for="calculationType">Select Calculation Type:</label>
+      <select id="calculationType">
+        <option value="speed">Calculate Speed</option>
+        <option value="distance">Calculate Distance</option>
+        <option value="time">Calculate Time</option>
+      </select>
+
+      <div id="inputs"></div>
+
+      <button id="calculateButton">Calculate</button>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
